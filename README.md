@@ -36,13 +36,13 @@ Clone this repository into your ComfyUI `custom_nodes` folder:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/MushroomFleet/comfyui-save-tiff16-adobe-rgb.git
+git clone https://github.com/MushroomFleet/comfyui-save-tiff
 ```
 
 Install the dependency:
 
 ```bash
-pip install -r ComfyUI/custom_nodes/comfyui-save-tiff16-adobe-rgb/requirements.txt
+pip install -r ComfyUI/custom_nodes/comfyui-save-tiff/requirements.txt
 ```
 
 Restart ComfyUI. The **Save TIFF (16-bit)** node will appear under the **Save TIFF** category.
@@ -69,11 +69,11 @@ Try the standalone browser version (no ComfyUI required):
 If you use this codebase in your research or project, please cite:
 
 ```bibtex
-@software{comfyui_save_tiff16_adobe_rgb,
-  title = {ComfyUI Save TIFF (16-bit, Adobe RGB): High bit-depth TIFF output with Adobe RGB color space support for ComfyUI},
+@software{comfyui_save_tiff,
+  title = {ComfyUI Save TIFF: High bit-depth TIFF output with Adobe RGB color space support for ComfyUI},
   author = {Drift Johnson},
   year = {2025},
-  url = {https://github.com/MushroomFleet/comfyui-save-tiff16-adobe-rgb},
+  url = {https://github.com/MushroomFleet/comfyui-save-tiff},
   version = {1.0.0}
 }
 ```
